@@ -37,4 +37,4 @@ jobs:
           registryPassword: ${{ secrets.RUNNERFUNCTIONSNIGHTLY61_REGISTRY_PASSWORD }}
           containerAppName: runner-functions-nightly61
           resourceGroup: swiftfiddle
-          imageToBuild: kishikawakatsumi/runner-functions-nightly61:${{ github.sha }}
+          imageToBuild: swiftfiddle/runner-functions-nightly61:latest
